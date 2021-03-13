@@ -1,0 +1,234 @@
+.bc {
+    display: flex;
+    flex-direction: column;
+}
+
+.block {
+    background-color: #003249;
+    width: 720px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bgblock {
+    background-color: #003750;
+    height: 30vmin;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block3 {
+    background-color: #005878;
+    width: 720px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bgblock3 {
+    background-color: #006488;
+    height: 30vmin;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block2 {
+    background-color: #007ea7;
+    width: 720px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bgblock2 {
+    background-color: #0085b1;
+    height: 30vmin;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block4 {
+    background-Color: #9ad1d4;
+    width: 720px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bgblock4 {
+    background-Color: #a6e2e6;
+    height: 30vmin;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block5 {
+    background-color: #ccdbdc;
+    width: 720px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.bgblock5 {
+    background-color: #d8e6e7;
+    height: 30vmin;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.block-text {
+    align-items: center;
+    flex: 5;
+    flex-direction: column;
+    display: flex;
+}
+
+.block-text-image {
+    align-items: center;
+    flex: 5;
+    flex-direction: row;
+    display: flex;
+}
+
+.block-h {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.block-f {
+    flex: 5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5vh;
+    padding: 3vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+.block-img {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.into-block {
+    flex-direction: row;
+    display: flex;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.colloum {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-device-width: 700px) {
+    .block {
+        width: 350px;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+    }
+    .bgblock {
+        height: 30vmin;
+        height: 350px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .block2 {
+        width: 300px;
+        height: 750px;
+        display: flex;
+        flex-direction: column;
+    }
+    .bgblock2 {
+        height: 30vmin;
+        height: 750px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .img {
+        size: 0px;
+        height: 0px;
+        width: 0px;
+        flex: 0;
+        display: none;
+        position:relative
+    }
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+    .block-text-image {
+        align-items: center;
+        flex: 5;
+        flex-direction: column;
+        display: flex;
+    }
+    .block3 {
+        width: 300px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .bgblock3 {
+        height: 30vmin;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .block4 {
+        width: 350px;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .bgblock4 {
+        height: 30vmin;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .block5 {
+        width: 350px;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .bgblock5 {
+        height: 30vmin;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+ }
